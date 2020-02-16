@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgrey;
+}
+
+h1 {
+    align-self: center;
+}
+
+h2 {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 20px;
+    list-style-position: inside;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    color: #4a69bd;
+}
+
+a:hover {
+    color: #6a89cc;
+}
